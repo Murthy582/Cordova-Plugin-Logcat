@@ -26,18 +26,6 @@ public class LogCat extends CordovaPlugin {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
-
-             //send file using email
-             Intent emailIntent = new Intent(Intent.ACTION_SEND);
-             // Set type to "email"
-             emailIntent.setType("vnd.android.cursor.dir/email");
-             String to[] = {"yourmail@gmail.com"};
-             emailIntent.putExtra(Intent.EXTRA_EMAIL, to);
-             // the attachment
-             emailIntent.putExtra(Intent.EXTRA_STREAM, outputFile.getAbsolutePath());
-             // the mail subject
-             emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
-             startActivity(Intent.createChooser(emailIntent , "Send email..."));
 	    }
           else{        
 	    return false;
