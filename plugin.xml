@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-logcat"
+        id="cordova-plugin-logcat"
         version="0.0.1">
 
   <name>Log Cat</name>
@@ -34,8 +34,8 @@ open xcode go into settings change `deployment target` to 7.0 or above and add `
         <param name="ios-package" value="LogCat"/>
       </feature>
     </config-file>
-    <header-file src="src/ios/Bridging-Header.h" target-dir="cordova-logcat" />
-    <source-file src="src/ios/LogCat.swift" target-dir="cordova-logcat" />
+    <header-file src="src/ios/Bridging-Header.h" target-dir="cordova-plugin-logcat" />
+    <source-file src="src/ios/LogCat.swift" target-dir="cordova-plugin-logcat" />
   </platform>
  
 </plugin>
