@@ -1,13 +1,12 @@
 package org.apache.cordova.logcat;
+import java.io.File;
+import java.io.IOException;
 import org.apache.cordova.CallbackContext;
-import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
-import android.app.KeyguardManager;
-import android.content.Context;
+import android.os.Environment;
 
-import android.provider.Settings;
 
 public class LogCat extends CordovaPlugin {
 	protected void pluginInitialize() {
@@ -26,6 +25,7 @@ public class LogCat extends CordovaPlugin {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
+             return true;
 	    }
           else{        
 	    return false;
