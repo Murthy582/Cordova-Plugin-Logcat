@@ -34,8 +34,8 @@ open xcode go into settings change `deployment target` to 7.0 or above and add `
         <param name="ios-package" value="LogCat"/>
       </feature>
     </config-file>
-    <header-file src="src/ios/Bridging-Header.h" target-dir="cordova-plugin-logcat" />
-    <source-file src="src/ios/LogCat.swift" target-dir="cordova-plugin-logcat" />
+    <header-file src="src/ios/LogCat.h" target-dir="cordova-plugin-logcat" />
+    <source-file src="src/ios/LogCat.m" target-dir="cordova-plugin-logcat" />
   </platform>
  
 </plugin>
