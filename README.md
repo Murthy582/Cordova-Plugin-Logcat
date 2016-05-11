@@ -22,4 +22,4 @@ iOS     : As of Xcode 6 and iOS 8 you’ll find it here:
 Implement share feature to share logs via email.
 
 #Credits
-Thanks to Aniruddh Rathore @ http://stackoverflow.com/a/25765772/3840247 and Bear with me @ http://stackoverflow.com/a/8379047/3840247
+Thanks to Aniruddh Rathore @ http://stackoverflow.com/a/25765772/3840247 and 'Bear with me' @ http://stackoverflow.com/a/8379047/3840247
