@@ -15,8 +15,8 @@ This plugin will create a log file called "logcat.txt" in the following location
 
 Android : Root folder of the sdcard
 iOS     : As of Xcode 6 and iOS 8 you’ll find it here:
-          Library/Developer/CoreSimulator/Devices/CRYPTIC NUMBER/data/Containers/Data/Application/CRYPTIC NUMBER
-          
+          Library/Developer/CoreSimulator/Devices/CRYPTIC NUMBER/data/Containers/Data/Application/CRYPTIC NUMBER/Documents/logcat.txt
+
 
 #TODO
 Implement share feature to share logs via email.
