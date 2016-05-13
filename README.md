@@ -1,4 +1,4 @@
-# Cordova-plugin-Logcat
+# Cordova-Plugin-Logcat
 A Cordova plugin to generate catlog file to share with developer
 
 #Installing
