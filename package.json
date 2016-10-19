@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-logcat",
+  "version": "0.0.1",
+  "description": "A Cordova plugin to send logs to the developer",
+  "cordova": {
+    "id": "cordova-plugin-logcat",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murthy582/Cordova-Plugin-Logcat.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Murthy VVR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Murthy582/Cordova-Plugin-Logcat/issues"
+  },
+  "homepage": "https://github.com/Murthy582/Cordova-Plugin-Logcat#readme"
+}
